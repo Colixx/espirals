@@ -1,0 +1,108 @@
+body{
+    font-family: Gotham HTF;
+    background-color:#e3e2ea;
+}
+
+
+
+
+.textoheader{
+    color: black;
+    font-size: 80px;
+    font-family: Hobo Std;
+    text-align: center;
+    top: 5px;
+    background-color: white;
+    transition-duration: 400ms;
+    transition-timing-function: linear;
+}
+
+
+.textoheader:hover{
+    transform: scale(1.1,1);
+    transition-duration: 400ms;
+    transition-timing-function: ease-in;
+
+}
+
+.iconosmenu{
+    color: black;
+    font-size: 40px;
+}
+
+.textomenu{
+    color: black;
+    background-color: burlywood;
+    transition-duration: 400ms;
+    transition-timing-function: linear;
+}
+
+.textomenu:hover{
+    transform: scale(1.1,1);
+    transition-duration: 400ms;
+    transition-timing-function: ease-in;
+}
+
+.menu {
+    font-family: Hobo Std;
+    
+    
+}
+
+.tituloabout{
+    font-family: Hobo Std;
+}
+
+
+
+
+.remeras{
+    color:white;
+    background-color:	#7b4b6e;
+    font-size: 25px;
+    
+
+}
+
+#footer{
+    background: ghostwhite;
+    height: 200px;
+    font-family: Akzidenz-Grotesk BQ;
+}
+
+.shadow{
+    box-shadow: 5px, 0px, 10px, black;
+    -moz-box-shadow: 5px, 0px, 10px, black;
+    -o-box-shadow: 5px, 0px, 10px, black;
+    -webkit-box-shadow: 5px, 0px, 10px, black;
+}
+
+
+.animacion {
+    margin-bottom: 0px;
+    animation-duration: 1s;
+    animation-name: animacion;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: animacion;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+  }
+  
+  @keyframes animacion {
+    0% {
+      left: 0px;
+      background-color: rgb(218, 185, 125) ;
+    }
+    
+    50% {
+        left:200px;
+        background-color: rgb(218, 185, 125) ;
+    }
+    
+    100%{
+        left: 0px ;
+        background-color: rgb(196, 164, 236);
+    }
+  }
